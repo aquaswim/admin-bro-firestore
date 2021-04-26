@@ -16,11 +16,11 @@
       "module": "commonjs",
       "paths": {
         "react": ["node_modules/@types/react"],
-        "admin-bro": ["node_modules/admin-bro"],
+        "admin-bro": ["node_modules/admin-bro"]
       }
   },
   "include": [
       "./src/**/*",
       "./spec/**/*"
-  ],
+  ]
 }

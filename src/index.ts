@@ -1,5 +1,2 @@
-import { bundle } from 'admin-bro'
-
-export const feature = () => {
-  bundle('../src/components/sidebar-footer.tsx', 'SidebarFooter')
-}
+export { default as Database } from './database'
+export { default as Resource } from './resource'
